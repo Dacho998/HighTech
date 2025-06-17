@@ -1,4 +1,4 @@
-import "./homePage.css";
+import "./HomePage.css";
 import hero from "../../assets/herroImg.png";
 
 
