@@ -1,0 +1,55 @@
+.about-container {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #00FF43;
+}
+
+.about-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #00FF43;
+  padding-bottom: 0.5rem;
+}
+
+.about-container h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #00FF43;
+  padding-left: 1rem;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.about-container ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.about-container li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.about-container li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+}
+.contact-section a {
+  color: #00FF43;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
