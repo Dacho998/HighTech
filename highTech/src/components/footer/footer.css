@@ -26,12 +26,18 @@
 }
 
 .footer-link {
-  color: #00ff43;
+  color: #00FF43;
   text-decoration: none;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.3s ease;
 }
 
 .footer-link:hover {
-  background-color: #00ff43;
-  color: #000;
-  box-shadow: 0 0 8px #00ff43, 0 0 15px #00ff43;
+  color: #118a31;
+}
+.facebook-icon {
+  margin-right: 8px;
+  font-size: 20px;
 }

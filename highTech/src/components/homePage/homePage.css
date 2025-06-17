@@ -37,3 +37,27 @@
   max-width: 600px;
   border-radius: 10px;
 }
+
+.button button {
+  background-color: transparent;
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #00FF43;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow:
+    0 0 5px #00FF43,
+    0 0 10px #00FF43;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button button:hover {
+  background-color: #00FF43;
+  color: #000;
+  box-shadow:
+    0 0 8px #00FF43,
+    0 0 15px #00FF43;
+}
