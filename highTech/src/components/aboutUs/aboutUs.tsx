@@ -2,6 +2,7 @@ import "./AboutUs.css";
 
 export const AboutUs = () => {
   return (
+    <div className="about-us-container">
     <div className="about-container">
       <section>
         <h1>За Нас</h1>
@@ -37,6 +38,7 @@ export const AboutUs = () => {
         <h2>Подготвени сте да го подигнете вашиот компјутерски систем на ново ниво?</h2>
         <p>Контактирајте нè и ние ќе се погрижиме за останатото!</p>
       </section>
+    </div>
     </div>
   );
 };

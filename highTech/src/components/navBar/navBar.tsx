@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.png";
-import './NavBar.css'
+import './NavBar.css';
 
 export const NavBar = () => (
   <nav className="navigation">
-    <img src={logo} alt="HighTech Logo" className="logo" />
+    <div className="logo-text">HighTech Service</div>
     <ul className="nav-links">
       <li><Link to="/">Home</Link></li>
       <li><Link to="/Services">Services</Link></li>

@@ -1,5 +1,5 @@
 import "./HomePage.css";
-import hero from "../../assets/herroImg.png";
+import hero from "../../assets/logo.png";
 import { useNavigate } from "react-router-dom";
 
 

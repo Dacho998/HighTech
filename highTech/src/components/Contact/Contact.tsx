@@ -1,6 +1,7 @@
 import './Contact.css'
 
 export const ContactPage = () => (
+  <div className='contact-container'>
 <div className="contact-page">
   <h2>Контактирајте Не</h2>
   <p>
@@ -26,5 +27,6 @@ export const ContactPage = () => (
       <span role="img" aria-label="office">🏢</span> Скопје, Македонија
     </li>
   </ul>
+</div>
 </div>
 );
