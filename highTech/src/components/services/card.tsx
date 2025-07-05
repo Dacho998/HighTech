@@ -3,6 +3,7 @@ import virusi  from "../../assets/servicesAssets/virusi.png"
 import popravka from "../../assets/servicesAssets/popravka.png"
 import optimizacija from "../../assets/servicesAssets/optimizacija.png"
 import hardverski from "../../assets/servicesAssets/hardverski.png"
+import web from "../../assets/servicesAssets/web.png"
 
 export const servicesData = [
   {
@@ -29,6 +30,15 @@ export const servicesData = [
     subtitle: 'Хардверски и Софтверски Интервенции',
     description: 'Решаваме широк спектар на проблеми – од неработечки компоненти до системски грешки и замрзнувања.',
   },
+ {
+  imgSrc: web,
+  title: 'Веб Решенија',
+  subtitle: 'Дизајн и Развој на Веб Страници',
+  description: 'Креираме модерни и респонзивни веб страници прилагодени на вашиот бренд – од персонални до бизнис и портфолио сајтови.',
+}
+
+
+
 ];
 
 export const ServicesPage = () => {
