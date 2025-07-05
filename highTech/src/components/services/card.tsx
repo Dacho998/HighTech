@@ -4,7 +4,7 @@ import popravka from "../../assets/servicesAssets/popravka.png"
 import optimizacija from "../../assets/servicesAssets/optimizacija.png"
 import hardverski from "../../assets/servicesAssets/hardverski.png"
 
-const servicesData = [
+export const servicesData = [
   {
     imgSrc: virusi,
     title: 'Безбедносно Чистење на Системот',

@@ -3,7 +3,7 @@ import './NavBar.css';
 
 export const NavBar = () => (
   <nav className="navigation">
-    <div className="logo-text">HighTech Service</div>
+    <Link to="/" className="logo-text">HighTech Service</Link>
     <ul className="nav-links">
       <li><Link to="/">Home</Link></li>
       <li><Link to="/Services">Services</Link></li>

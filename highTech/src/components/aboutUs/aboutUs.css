@@ -1,6 +1,6 @@
 .about-container {
-  max-width: 1000px;
-  margin: 4rem auto;
+  background-color: #121212;
+  max-width: 800px;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 0 15px #00FF43;

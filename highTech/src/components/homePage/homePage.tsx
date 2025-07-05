@@ -1,7 +1,9 @@
 import "./HomePage.css";
 import hero from "../../assets/logo.png";
 import { useNavigate } from "react-router-dom";
-
+import { servicesData } from "../services/Card"
+import { Card } from '../services/Services';
+import '../services/Services.css';
 
 export const HomePage = () => {
   const navigate = useNavigate();
@@ -19,6 +21,19 @@ export const HomePage = () => {
       </div>
       <img src={hero} alt="Hero Image" className="hero-img" />
     </section>
+      <section className="services-container">
+        <div className="cards-wrapper">
+          {servicesData.map((service, index) => (
+            <Card
+              key={index}
+              imgSrc={service.imgSrc}
+              title={service.title}
+              subtitle={service.subtitle}
+              description={service.description}
+            />
+          ))}
+        </div>
+      </section>
     </>
   );
 };
