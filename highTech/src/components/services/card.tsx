@@ -1,4 +1,4 @@
-import { Card } from './Services';
+import { Card } from './services';
 import virusi  from "../../assets/servicesAssets/virusi.png"
 import popravka from "../../assets/servicesAssets/popravka.png"
 import optimizacija from "../../assets/servicesAssets/optimizacija.png"
