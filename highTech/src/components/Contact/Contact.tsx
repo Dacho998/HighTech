@@ -1,4 +1,4 @@
-import './Contact.css'
+import './contact.css'
 
 export const ContactPage = () => (
   <div className='contact-container'>
