@@ -1,10 +1,10 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom';
-import { HomePage } from './components/homePage/HomePage';
-import { AboutUs } from './components/aboutUs/AboutUs';
-import { NavBar } from './components/navBar/NavBar';
-import { Footer } from './components/footer/Footer';
-import { ServicesPage } from './components/services/Card';
+import { HomePage } from './components/homePage/homePage';
+import { AboutUs } from './components/aboutUs/aboutUs';
+import { NavBar } from './components/navBar/navBar';
+import { Footer } from './components/footer/footer';
+import { ServicesPage } from './components/services/card';
 import { ContactPage } from './components/Contact/Contact';
 
 function App() {

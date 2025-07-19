@@ -1,7 +1,7 @@
 import "./HomePage.css";
 import hero from "../../assets/logo.png";
 import { useNavigate } from "react-router-dom";
-import { servicesData } from "../services/Card"
+import { servicesData } from "../services/card"
 import { Card } from '../services/Services';
 import '../services/Services.css';
 

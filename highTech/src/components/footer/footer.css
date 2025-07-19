@@ -41,3 +41,68 @@
   margin-right: 8px;
   font-size: 20px;
 }
+
+@media (max-width: 1024px) {
+  .footer-container {
+    max-width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+/* Tablets and smaller */
+@media (max-width: 768px) {
+  .footer {
+    height: auto;
+    padding: 2rem 1.5rem;
+    text-align: left;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-title,
+  .footer-subtitle,
+  .footer-text {
+    margin-bottom: 0.8rem;
+  }
+
+  .footer-link {
+    font-size: 16px;
+  }
+
+  .facebook-icon {
+    font-size: 18px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .footer {
+    padding: 1.5rem 1rem;
+  }
+
+  .footer-title {
+    font-size: 1.2rem;
+  }
+
+  .footer-subtitle {
+    font-size: 1rem;
+  }
+
+  .footer-text {
+    font-size: 0.9rem;
+  }
+
+  .footer-link {
+    font-size: 14px;
+  }
+
+  .facebook-icon {
+    font-size: 16px;
+    margin-right: 6px;
+  }
+}

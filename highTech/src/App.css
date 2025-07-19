@@ -5,13 +5,13 @@
 }
 
 html, body, #root {
-  background-color: #000;
   height: 100%;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  background-color: #000;
   color: #00FF43;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .app-container {
@@ -25,4 +25,98 @@ html, body, #root {
   padding: 20px;
 }
 
+@media (max-width: 1024px) {
+  .content {
+    padding: 18px;
+  }
 
+  .section {
+    padding: 3.5rem 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .content {
+    padding: 16px;
+  }
+
+  .section {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 14px;
+  }
+
+  .section {
+    padding: 2.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .content {
+    padding: 12px;
+  }
+
+  .section {
+    padding: 2rem 1.2rem;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    padding: 10px;
+  }
+
+  .section {
+    padding: 1.8rem 1rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .content {
+    padding: 8px;
+  }
+
+  .section {
+    padding: 1.5rem 0.8rem;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+  }
+}

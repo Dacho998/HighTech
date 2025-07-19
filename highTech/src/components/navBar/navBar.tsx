@@ -1,14 +1,24 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import './NavBar.css';
 
-export const NavBar = () => (
-  <nav className="navigation">
-    <Link to="/" className="logo-text">HighTech Service</Link>
-    <ul className="nav-links">
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/Services">Services</Link></li>
-      <li><Link to="/about-us">About Us</Link></li>
-      <li><Link to="/contact">Контакт</Link></li>
-    </ul>
-  </nav>
-);
+export const NavBar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  return (
+    <nav className="navigation">
+      <Link to="/" className="logo-text">HighTech Service</Link>
+      <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
+        <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
+        <li><Link to="/Services" onClick={() => setMenuOpen(false)}>Services</Link></li>
+        <li><Link to="/about-us" onClick={() => setMenuOpen(false)}>About Us</Link></li>
+        <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Контакт</Link></li>
+      </ul>
+    </nav>
+  );
+};
