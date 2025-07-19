@@ -51,7 +51,6 @@
   }
 }
 
-/* Tablets and smaller */
 @media (max-width: 768px) {
   .footer {
     height: auto;
@@ -79,7 +78,6 @@
   }
 }
 
-/* Mobile phones */
 @media (max-width: 480px) {
   .footer {
     padding: 1.5rem 1rem;
