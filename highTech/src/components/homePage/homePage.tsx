@@ -3,7 +3,7 @@ import hero from "../../assets/logo.png";
 import { useNavigate } from "react-router-dom";
 import { servicesData } from "../services/card"
 import { Card } from '../services/services';
-import '../services/Services.css';
+import '../services/services.css';
 
 export const HomePage = () => {
   const navigate = useNavigate();
