@@ -1,4 +1,4 @@
-import './services.css';
+import '../services/services.css';
 
 interface Props {
   imgSrc: string;
